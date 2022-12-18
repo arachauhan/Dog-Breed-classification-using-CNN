@@ -29,8 +29,17 @@ This project has below steps:
 - cv2
 - Sklearn
 
+## Conclusion
+The model performed at 79% accuracy that is satisfcatory and testing upon 7 images it is showing right results however accuracy can be improved by follwing below points:
+- Increase training and testing data
+- Image data augmentation to increase the number of training images.
+- Improve the network design by doing more experimentation and adding few more layers and trying different type CNN models like Inception, Xception Accuracy can be further optimised by ensembling results of different CNN models.
+- Hyperparameter tuning of the CNN models
+- Use Cross validation while training of the model
+
 ## Blog post
 [Link to the blog post on Medium.](https://medium.com/@arachauhan/dog-breed-classification-using-convolutional-neural-networks-cnn-b17423366f4d)
+
 
 ## Reference
 Project dataset is provided by Udacity and this project is  part of [Data Scientist Nanodegree.](https://www.udacity.com/course/data-scientist-nanodegree--nd025)
